@@ -558,7 +558,10 @@ header {
         grid-column: 1/2;
         margin: auto;
     }
-
+     .nested-grid{
+        grid-column: 1/4;
+        margin: auto;
+    }
   
  
 }
@@ -571,6 +574,10 @@ header {
         width: 900px;
         height: 450px;
     }  
+    .nested-grid{
+        grid-column: 1/4;
+        margin: auto;
+    }
  
 }
 
@@ -595,6 +602,11 @@ header {
     .additionals-container-column{
         grid-column: 1/2;
         margin: auto;
+    }
+    .nested-grid{
+        grid-column: 1/4;
+        margin: auto;
+        
     }
 
   
