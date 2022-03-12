@@ -117,6 +117,7 @@ header {
 
 }
 
+
 .blog {
     background-color: white;
     width: 100%;
@@ -449,7 +450,7 @@ header {
     grid-template-columns: 100%;
     justify-items: center;
     font-family: "Montserrat", sans-serif;
-  
+
 }
 
 .grid-registro .fa, .grid-registro .fa-user-circle-o {
@@ -480,17 +481,20 @@ header {
 }
 
 
-.nested-grid-registro-img i{
-padding-top: 10px;
+.nested-grid-registro-img i {
+    padding-top: 10px;
 
 }
+
 .nested-grid-registro-button {
 
     padding-bottom: 50px;
 }
-.nested-grid-registro-button a{
+
+.nested-grid-registro-button a {
     text-align: center;
 }
+
 .nested-grid-registro-button button {
     margin-top: 10px;
     width: 200px;
@@ -500,7 +504,99 @@ padding-top: 10px;
     text-align: center;
     border-radius: 500px;
 }
-.nested-grid-registro-button button:hover{
+
+.nested-grid-registro-button button:hover {
     cursor: pointer;
     background-color: gray;
+}
+
+@media(max-width:600px) {
+    .jumbotron,.blog-container, .footer {
+        flex-direction: column;
+        margin: auto;
+       
+    }
+
+    .jumbotron-img{
+        width: 600px;
+        height: 300px;
+    }
+    .jumbotron-column-title{
+        font-size: 70px;
+        text-align: center;
+    }
+    .additionals{
+        font-size: 20px;
+        margin: auto;
+    }
+    .additionals-container-column{
+        grid-column: 1/2;
+        margin: auto;
+    }
+
+  
+ 
+}
+@media(max-width:800px) {
+    .jumbotron,.blog-container, .footer {
+        flex-direction: column;
+        margin: auto;
+    }
+    .jumbotron-img{
+        width: 800px;
+        height: 400px;
+    }
+    .jumbotron-column-title{
+        font-size: 70px;
+        text-align: center;
+    }
+    .additionals{
+        font-size: 20px;
+        margin: auto;
+    }
+    .additionals-container-column{
+        grid-column: 1/2;
+        margin: auto;
+    }
+
+  
+ 
+}
+@media(max-width:900px) {
+    .jumbotron,.blog-container, .footer {
+        flex-direction: column;
+        margin: auto;
+    }
+    .jumbotron-img{
+        width: 900px;
+        height: 450px;
+    }  
+ 
+}
+
+@media(max-width:1400px) {
+    .jumbotron,.blog-container, .footer {
+        flex-direction: column;
+        margin: auto;
+        text-align: center;
+    }
+    
+    .jumbotron-column-title{
+        font-size: 70px;
+        text-align: center;
+    }
+    .blog-container-column h2,.blog-container-column p,.blog-container-column h3{
+        text-align: center;
+    }
+    .additionals{
+        font-size: 20px;
+        margin: auto;
+    }
+    .additionals-container-column{
+        grid-column: 1/2;
+        margin: auto;
+    }
+
+  
+ 
 }
