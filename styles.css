@@ -1,0 +1,511 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+body {
+    background-color: #24252a;
+}
+
+li, a, button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10%;
+    padding-bottom: 100px;
+
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+.navbar li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.navbar li a {
+    transition: all 0.3s ease 0s;
+}
+
+.navbar li a:hover {
+    color: #0088a9;
+    background-color: white;
+}
+
+.navbar li {
+    float: left;
+    width: 200px;
+    height: 40px;
+    opacity: .9;
+    line-height: 40px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.navbar li a {
+    text-decoration: none;
+    display: block;
+}
+
+.navbar li a:hover {
+    background-color: lightsalmon;
+    cursor: pointer;
+}
+
+.navbar li ul li {
+    display: none;
+}
+
+.navbar li:hover ul li {
+    display: block;
+}
+
+.fa, .fa-user-circle-o:hover, .fa-search {
+    cursor: pointer;
+}
+
+.jumbotron {
+    background-color: #32343b;
+    position: relative;
+    width: 100%;
+    height: 50%;
+    text-align: center;
+    display: flex;
+
+}
+
+.jumbotron-img {
+    margin-right: auto;
+
+}
+
+.jumbotron-column {
+    background-color: #32343b;
+}
+
+.jumbotron-column-title {
+    background-color: #32343b;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 100px;
+    text-align: center;
+    padding: 100px
+}
+
+.jumbotron-column p {
+    background-color: #32343b;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    font-style: italic;
+    font-size: 20px;
+
+}
+
+.blog {
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 30px;
+
+}
+
+.blog-h1 {
+    text-align: center;
+    font-size: 100px;
+    color: #32343b;
+    ;
+    padding-top: 100px;
+}
+
+.blog-h4 {
+    text-align: center;
+    font-size: 30px;
+    color: #32343b;
+    padding: 40px 0px;
+
+}
+
+.blog-container {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+
+
+.blog-container-column {
+    padding: 20px;
+    box-shadow: 0 1px 16px 0 #32343b;
+}
+
+.blog-container-column-img {
+    width: 500px;
+    height: 300px;
+    padding: 10px;
+}
+
+.blog-container-column:hover {
+    box-shadow: 0 15px 20px 0 #32343b;
+    ;
+}
+
+
+.blog-container-column h1 {
+    padding-bottom: 20px;
+}
+
+
+.additionals {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 100px;
+
+}
+
+.additionals h1 {
+    text-align: center;
+    font-size: 80px;
+    padding: 100px;
+    color: white;
+}
+
+.additionals-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-items: end;
+    padding: 10px;
+}
+
+.additionals-container-column {
+    background-color: #32343b;
+    border: 1px solid #32343b;
+    padding: 100px;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+
+.additionals-container-column {
+    font-size: 80px;
+    border-radius: 50px;
+
+}
+
+.additionals-container-column:hover {
+    background-image: linear-gradient(to right, #29323c, #485563, #2b5876, #4e4376);
+    box-shadow: 0 4px 15px 0 rgba(45, 54, 65, 0.75);
+    cursor: pointer;
+}
+
+.blog-container-column h1 {
+    text-align: center;
+    font-style: italic;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.blog-container-column button {
+    background-color: transparent;
+    width: 200px;
+    height: 40px;
+    border: none;
+    background-color: turquoise;
+    font-weight: bold;
+    border-radius: 10px;
+    font-size: 14px;
+    color: black;
+}
+
+.blog-container-column button:hover {
+    background-color: #32343b;
+    font-weight: 500px;
+    color: white;
+    cursor: pointer;
+}
+
+.blog-container-column h2, .blog-container-column p, .blog-container-column h3, .blog-container-column a {
+    padding-left: 10px;
+    padding-bottom: 10px;
+    text-align: justify;
+}
+
+
+.footer-container {
+    background-color: black;
+    padding-bottom: 2rem;
+    font-family: Arial, Helvetiva, sans-serif;
+
+}
+
+
+.footer {
+    width: 100%;
+    height: 40vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.footer-heading {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 40px;
+}
+
+.footer-heading h4 {
+    margin-bottom: 2rem;
+    color: #919496;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+.footer-heading a {
+    color: white;
+    text-decoration: none;
+    margin-bottom: 1.5rem;
+    font-size: 14px;
+    font-weight: bold;
+
+}
+
+.footer-heading a:hover {
+    color: #1ed760;
+}
+
+.social_links a {
+    flex: none;
+}
+
+.social_links i {
+    font-size: 30px;
+    padding: 0 10px;
+}
+
+.copyright {
+    color: #919496;
+    text-decoration: none;
+    text-align: center;
+    font-size: 12px;
+
+}
+
+#Premium:hover {
+    cursor: pointer;
+}
+
+/*PLAY STATION*/
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: white;
+    grid-auto-rows: minmax(200px, auto);
+    gap: 1em;
+
+}
+
+.grid-title {
+    grid-column: 1/4;
+    text-align: center;
+    background-image: url(./assets/images/bannerps.jpg);
+    color: white;
+    font-size: 50px;
+    gap: 30px;
+}
+
+.nested-grid {
+    padding: 30px;
+    text-align: center;
+}
+
+.nested-grid img {
+    width: 250px;
+    height: 400px;
+    padding: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+
+.nested-grid button {
+    background-color: transparent;
+    width: 200px;
+    height: 40px;
+    border: none;
+    background-color: #003087;
+    font-weight: bold;
+    border-radius: 10px;
+    font-size: 14px;
+}
+
+.nested-grid button:hover {
+    background-color: #32343b;
+    font-weight: 500px;
+    color: white;
+    cursor: pointer;
+}
+
+.nested-grid {
+    padding: 20px;
+    box-shadow: 0 1px 16px 0 #32343b;
+}
+
+.nested-grid:hover {
+    box-shadow: 0 15px 20px 0 #32343b;
+    ;
+}
+
+.nested-grid h1 {
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.nested-grid h2, .nested-grid p, .nested-grid h3, .nested-grid a {
+    padding-left: 10px;
+    padding-bottom: 10px;
+    text-align: justify;
+}
+
+.grid-title-nintendo {
+    grid-column: 1/4;
+    text-align: center;
+    background-image: url(./assets/images/Nintendo_switch_logo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-size: 50px;
+    gap: 10px;
+}
+
+.nested-grid .nintendo {
+    width: 200px;
+    height: 40px;
+    border: none;
+    background-color: #e60012;
+    font-weight: bold;
+    border-radius: 10px;
+    font-size: 14px;
+}
+
+.nested-grid .nintendo:hover {
+    background-color: #32343b;
+    font-weight: 500px;
+    color: white;
+    cursor: pointer;
+}
+
+.grid-title-microsoft {
+    grid-column: 1/4;
+    text-align: center;
+    background-color: #107C10;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-size: 50px;
+    gap: 10px;
+}
+
+.nested-grid .microsoft {
+    width: 200px;
+    height: 40px;
+    border: none;
+    background-color: #107C10;
+    font-weight: bold;
+    border-radius: 10px;
+    font-size: 14px;
+}
+
+.nested-grid .microsoft:hover {
+    background-color: #32343b;
+    font-weight: 500px;
+    color: white;
+    cursor: pointer;
+}
+
+.grid-registro {
+    display: grid;
+    grid-template-columns: 100%;
+    justify-items: center;
+    font-family: "Montserrat", sans-serif;
+  
+}
+
+.grid-registro .fa, .grid-registro .fa-user-circle-o {
+    font-size: 200px;
+}
+
+.nested-grid-registro {
+    display: grid;
+    border: 3px solid black;
+    text-align: center;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 200px 50px 50px 50px 50px;
+    background-color: white;
+    width: 600px;
+    font-size: 20px;
+}
+
+.nested-grid-registro label {
+    float: right;
+    padding-right: 50px;
+}
+
+.nested-grid-registro input {
+    padding-right: 50px;
+    height: 30px;
+    width: 250px;
+
+}
+
+.nested-grid-registro-img {
+    grid-column: 1/3;
+
+}
+.nested-grid-registro-img i{
+padding-top: 10px;
+
+}
+.nested-grid-registro-button {
+
+    grid-column: 1/3;
+    padding-bottom: 50px;
+}
+.nested-grid-registro-button a{
+    text-align: center;
+}
+.nested-grid-registro-button button {
+    padding-top: 10px;
+    grid-column: 1/3;
+    width: 200px;
+    padding-bottom: 10px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 500px;
+}
+.nested-grid-registro-button button:hover{
+    cursor: pointer;
+    background-color: gray;
+}
