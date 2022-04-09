@@ -509,7 +509,7 @@ header {
     cursor: pointer;
     background-color: gray;
 }
-#section-anime{
+#section-videojuegos{
     padding:0;
     background-color: white;
     border-radius: 20px;
@@ -517,16 +517,16 @@ header {
     padding-bottom: 100px;
     text-align: center;
 }
-#section-anime h1{
+#section-videojuegos h1{
     text-align: center;
     border-radius: 20px 20px 0 0 ;
     font-size: 100px;
-    background-color: rgba(243, 19, 150, 0.623);
+    background-color: rgba(53, 19, 243, 0.938);
     color:white;
     padding-bottom: 80px;
     padding-top:30px;
 }
-#section-anime h1 i{
+#section-videojuegos h1 i{
     font-size: 60px;
 }
 
