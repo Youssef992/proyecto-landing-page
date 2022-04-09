@@ -60,7 +60,7 @@ const EditarRegistroDB= (index)=>{
             let tituloAnime= prompt("Escriba el nombre del nuevo título");
             arrayAnimes[index].titulo= tituloAnime;
         }
-        arrayAnimes[index].estatus= 'Finalizada';
+        arrayAnimes[index].estatus= 'Finalizado';
     }
     GuardarRegistroDB();
 }
@@ -78,7 +78,6 @@ formularioAnime.addEventListener('submit',(e)=>{
 document.addEventListener('DOMContentLoaded',MostrarRegistroDB);
 
 listaAnimes.addEventListener('click',(e)=>{
-    alert("entraste");
 e.preventDefault();
 console.log(e);
  if(e.target.innerHTML === 'done' || e.target.innerHTML === 'delete'){
