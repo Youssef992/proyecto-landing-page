@@ -509,6 +509,15 @@ header {
     cursor: pointer;
     background-color: gray;
 }
+#section-anime{
+    color: white;
+    padding-bottom: 100px;
+}
+#section-anime h1{
+    font-size: 100px;
+    padding-bottom: 80px;
+}
+
 
 @media(max-width:600px) {
     .jumbotron,.blog-container, .footer {
