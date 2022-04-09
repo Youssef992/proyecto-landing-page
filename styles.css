@@ -510,12 +510,24 @@ header {
     background-color: gray;
 }
 #section-anime{
-    color: white;
+    padding:0;
+    background-color: white;
+    border-radius: 20px;
+    color: black;
     padding-bottom: 100px;
+    text-align: center;
 }
 #section-anime h1{
+    text-align: center;
+    border-radius: 20px 20px 0 0 ;
     font-size: 100px;
+    background-color: rgb(206, 100, 13);
+    color:white;
     padding-bottom: 80px;
+    padding-top:30px;
+}
+#section-anime h1 i{
+    font-size: 60px;
 }
 
 
@@ -523,7 +535,6 @@ header {
     .jumbotron,.blog-container, .footer {
         flex-direction: column;
         margin: auto;
-       
     }
 
     .jumbotron-img{
