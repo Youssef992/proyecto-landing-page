@@ -531,15 +531,106 @@ header {
 }
 
 
+@media(max-width:400px) {
+    .jumbotron,.blog-container, .footer {
+        flex-direction: column;
+        margin: auto;
+    }
+
+ 
+    .jumbotron .jumbotron-column .jumbotron-column-title{
+        font-size: 40px;
+        text-align: center;
+    }
+    .additionals{
+        font-size: 20px;
+        margin: auto;
+    }
+    .additionals-container-column{
+        grid-column: 1/2;
+        margin: auto;
+    }
+
+    #section-videojuegos h1{
+        font-size: 10px;
+    }
+    #section-videojuegos h1 i{
+        font-size: 10px;
+    }
+ 
+} 
+@media(max-width:500px) {
+    .jumbotron,.blog-container, .footer {
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .jumbotron .jumbotron-img{
+        width: 480px !important;
+        height: 480px !important;
+    }
+    .jumbotron .jumbotron-column .jumbotron-column-title{
+        font-size: 40px;
+        text-align: center;
+    }
+    .additionals{
+        font-size: 20px;
+        margin: auto;
+    }
+    .additionals-container-column{
+        grid-column: 1/2;
+        margin: auto;
+    }
+
+    #section-videojuegos h1{
+        font-size: 40px!important;
+    }
+    #section-videojuegos h1 i{
+        font-size: 40px!important;
+    }
+ 
+} 
+
 @media(max-width:600px) {
     .jumbotron,.blog-container, .footer {
         flex-direction: column;
         margin: auto;
     }
 
-    .jumbotron-img{
-        width: 600px;
-        height: 300px;
+    .jumbotron .jumbotron-img{
+        width: 580px;
+        height: 580px;
+    }
+    .jumbotron .jumbotron-column .jumbotron-column-title{
+        font-size: 50px;
+        text-align: center;
+    }
+    .additionals{
+        font-size: 20px;
+        margin: auto;
+    }
+    .additionals-container-column{
+        grid-column: 1/2;
+        margin: auto;
+    }
+
+    #section-videojuegos h1{
+        font-size: 50px;
+    }
+    #section-videojuegos h1 i{
+        font-size: 50px;
+    }
+ 
+}
+
+@media(max-width:700px) {
+    .jumbotron,.blog-container, .footer {
+        flex-direction: column;
+        margin: auto;
+    }
+    .jumbotron .jumbotron-img{
+        width: 670px !important;
+        height: 670px!important;
     }
     .jumbotron-column-title{
         font-size: 70px;
@@ -553,18 +644,27 @@ header {
         grid-column: 1/2;
         margin: auto;
     }
-
-  
+     .nested-grid{
+        grid-column: 1/4;
+        margin: auto;
+    }
+    #section-videojuegos h1{
+        font-size: 60px!important;
+    }
+    #section-videojuegos h1 i{
+        font-size: 60px!important;
+    }
  
 }
+
 @media(max-width:800px) {
     .jumbotron,.blog-container, .footer {
         flex-direction: column;
         margin: auto;
     }
-    .jumbotron-img{
-        width: 800px;
-        height: 400px;
+    .jumbotron .jumbotron-img{
+        width: 760px;
+        height: 760px;
     }
     .jumbotron-column-title{
         font-size: 70px;
@@ -590,9 +690,31 @@ header {
         flex-direction: column;
         margin: auto;
     }
-    .jumbotron-img{
-        width: 900px;
-        height: 450px;
+    .jumbotron .jumbotron-img{
+        width: 860px;
+        height: 860px;
+    }  
+    .nested-grid{
+        grid-column: 1/4;
+        margin: auto;
+    }
+
+    #section-videojuegos h1{
+        font-size: 80px;
+    }
+    #section-videojuegos h1 i{
+        font-size: 80px;
+    }
+ 
+}
+@media(max-width:1000px) {
+    .jumbotron,.blog-container, .footer {
+        flex-direction: column;
+        margin: auto;
+    }
+    .jumbotron .jumbotron-img{
+        width: 960px;
+        height: 960px;
     }  
     .nested-grid{
         grid-column: 1/4;
@@ -600,7 +722,6 @@ header {
     }
  
 }
-
 @media(max-width:1400px) {
     .jumbotron,.blog-container, .footer {
         flex-direction: column;
